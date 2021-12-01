@@ -1,0 +1,132 @@
+*{
+    margin: 0;    
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.ttf')
+}
+a{
+    text-decoration: none;
+}
+/*.all{
+    width: 100vw;
+    height: 100vh;
+    margin: 200px, 0, 200px, 0;    
+}*/
+.header {
+    display: flex;
+    background-color: rgb(171, 143, 197);
+    justify-content: space-between;
+}
+.header_logotip {
+    width: 220px;
+    height: 70px;
+    background: url(../images/logo.jpg);
+    background-position: center center;
+    border: orchid solid 2px;
+    background-size: 80%;
+}
+.header__menu {
+    
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    align-items: center;
+    font-size: larger;
+
+}
+.deviz {
+    padding: 25px 20px;
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+    background-color: white;
+    border: orchid solid 2px;
+
+}
+.section {
+    padding: 0, 0, 0, 20px;
+}
+.section__about {
+    margin: 20px 100px 20px 100px;
+    
+}
+.section__about p{
+    text-align: justify;
+    font-size: 20px;
+    
+}
+.section_goal {
+    background: rgb(207, 188, 224);
+    border: darkblue solid 10px;
+    border-radius: 10px;
+}
+.section_text {
+    background: cyan;
+    border: rgb(101, 101, 145) solid 10px;
+    border-radius: 10px;
+}
+.section_algoritm {
+    
+}
+.algo{
+    display: flex;
+}
+.algoritm {
+    width: 200px;
+    height: 120px;
+    border: solid 2px cornflowerblue;
+}
+.algoritm li:hover{
+    background: cornflowerblue;
+    color: cornsilk;
+}
+.section_search {
+}
+.search_region {
+}
+.search {
+}
+.search_date {
+}
+.serch_team{
+
+}
+.button {
+}
+.section_button {
+}
+.section_rewiews {
+}
+.section_rewiew {
+}
+.rewiew_fio {
+}
+.rewiew_text {
+}
+.section_promo {
+}
+.promo {
+}
+.promo_1 {
+}
+.promo_title {
+}
+.promo_item {
+}
+.promo_image {
+}
+.promo_2 {
+}
+.promo_3 {
+}
+.section_podpiska {
+}
+.podpiska_text {
+}
+.button_podpiska {
+}
+.footer {
+}
+.nav {
+}
